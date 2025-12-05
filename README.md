@@ -119,7 +119,8 @@ In short:
 This query tells me **how much money each store made on its first recorded order.**
 
 **OUTPUT**
-<img width="1363" height="692" alt="Q3" src="https://github.com/user-attachments/assets/5605c991-fc27-4b46-ac1a-e43afbdda0dd" />
+<img width="1500" height="886" alt="Q4" src="https://github.com/user-attachments/assets/775fa86d-cbfc-42aa-bea4-fab78fb28cd5" />
+
 
 
 ---
