@@ -23,6 +23,9 @@ In short:
 This query tells me **how many valid (non-refunded) purchases happened in each month.**
 
 **OUTPUT**
+<img width="1157" height="732" alt="Q1" src="https://github.com/user-attachments/assets/00908311-c1f1-4455-a332-d6855481aab3" />
+
+
 ![Q1]([assets/image.png](https://github.com/yogeshkr718/VettyTest_DERole/blob/main/Q1.png))
 
 ---
