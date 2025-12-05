@@ -22,6 +22,9 @@ ORDER BY purchase_month;
 In short:
 This query tells me **how many valid (non-refunded) purchases happened in each month.**
 
+**OUTPUT**
+![Q1]([assets/image.png](https://github.com/yogeshkr718/VettyTest_DERole/blob/main/Q1.png))
+
 ---
 
 2. How many stores receive at least 5 orders in October 2020?
