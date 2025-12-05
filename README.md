@@ -25,9 +25,6 @@ This query tells me **how many valid (non-refunded) purchases happened in each m
 **OUTPUT**
 <img width="1157" height="732" alt="Q1" src="https://github.com/user-attachments/assets/00908311-c1f1-4455-a332-d6855481aab3" />
 
-
-![Q1]([assets/image.png](https://github.com/yogeshkr718/VettyTest_DERole/blob/main/Q1.png))
-
 ---
 
 2. How many stores receive at least 5 orders in October 2020?
@@ -58,6 +55,10 @@ FROM (
 In short:
 This query tells me **how many stores were “busy” enough to receive at least 5 orders in October 2020.**
 
+**OUTPUT**
+<img width="1153" height="727" alt="q2" src="https://github.com/user-attachments/assets/2c8b1f1c-8cd7-4de4-838f-d24364f6d649" />
+
+
 ---
 
 3. Shortest interval (in minutes) from purchase to refund per store
@@ -80,6 +81,10 @@ GROUP BY store_id;
 
 In short:
 This query shows **how quickly each store has refunded at least one order**, using the shortest time difference.
+
+**OUTPUT**
+<img width="1363" height="692" alt="Q3" src="https://github.com/user-attachments/assets/864d6251-6b2d-4cf6-8a57-e560aa0a3205" />
+
 
 ---
 
@@ -112,6 +117,10 @@ WHERE rn = 1;
 
 In short:
 This query tells me **how much money each store made on its first recorded order.**
+
+**OUTPUT**
+<img width="1363" height="692" alt="Q3" src="https://github.com/user-attachments/assets/5605c991-fc27-4b46-ac1a-e43afbdda0dd" />
+
 
 ---
 
@@ -150,6 +159,10 @@ LIMIT 1;
 In short:
 This query finds **which item is most commonly bought as the first purchase by buyers.**
 
+**OUTPUT**
+<img width="1506" height="886" alt="Q5" src="https://github.com/user-attachments/assets/99db60a6-4a61-490c-9e68-da57b91e1dae" />
+
+
 ---
 
 6. Create a flag whether refund can be processed (within 72 hours)
@@ -178,6 +191,12 @@ FROM transactions;
 
 In short:
 This query tags each transaction as **eligible (1)** or **not eligible (0)** for refund based on the 72-hour rule.
+
+**OUTPUT**
+<img width="1510" height="892" alt="Q6" src="https://github.com/user-attachments/assets/e5ac97cc-4a6f-4915-895a-60243f627205" />
+
+
+
 
 ---
 
@@ -213,6 +232,10 @@ WHERE purchase_rank = 2;
 In short:
 This query shows **the second proper purchase of each buyer**, ignoring any transaction that later got refunded.
 
+**OUTPUT**
+<img width="1503" height="888" alt="Q7" src="https://github.com/user-attachments/assets/04586d39-2274-4ba2-8d86-94778b38cb56" />
+
+
 ---
 
 8. Find the second transaction time per buyer (without MIN/MAX)
@@ -244,6 +267,10 @@ WHERE rn = 2;
 
 In short:
 This query gives me **the timestamp of the second transaction for every buyer**, without using `MIN` or `MAX`, only using ranking.
+
+**OUTPUT**
+<img width="1506" height="882" alt="Q8" src="https://github.com/user-attachments/assets/1360fa2b-67cf-4d2c-ad4d-c3ef14205a1b" />
+
 
 ---
 
